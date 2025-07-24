@@ -110,7 +110,7 @@ ReactDOM.render(
 
                   <span className="link-block">
                     <a
-                      href="https://codecriticbench.github.io/"
+                      href="https://xxzcc.github.io/CodeCriticBench.github.io"
                       className="external-link button is-normal is-rounded is-dark"
                     >
                       <span className="icon">
