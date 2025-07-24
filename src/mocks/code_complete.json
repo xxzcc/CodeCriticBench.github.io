@@ -1,0 +1,527 @@
+{
+    "performances": [
+        {
+            "AVG": 51.79,
+            "model": "Qwen2.5-Coder-0.5B-Instruct",
+            "ACC_All": 51.79,
+            "ACC_gen": 51.28,
+            "ACC_qa": 53.27,
+            "MSE_All": 24.24,
+            "MSE_gen": 23.96,
+            "MSE_qa": 25.06
+        },
+        {
+            "AVG": 50.98,
+            "model": "Yi-Coder-1.5B-Chat",
+            "ACC_All": 50.98,
+            "ACC_gen": 51.56,
+            "ACC_qa": 49.27,
+            "MSE_All": 29.26,
+            "MSE_gen": 28.27,
+            "MSE_qa": 32.13
+        },
+        {
+            "AVG": 51.44,
+            "model": "DeepSeek-Coder-1.3B-Instruct",
+            "ACC_All": 51.44,
+            "ACC_gen": 52.31,
+            "ACC_qa": 48.91,
+            "MSE_All": 22.67,
+            "MSE_gen": 24.48,
+            "MSE_qa": 17.39
+        },
+        {
+            "AVG": 53.16,
+            "model": "OpenCoder-1.5B-Instruct",
+            "ACC_All": 53.16,
+            "ACC_gen": 53.06,
+            "ACC_qa": 53.45,
+            "MSE_All": 27.60,
+            "MSE_gen": 28.07,
+            "MSE_qa": 26.23
+        },
+        {
+            "AVG": 54.47,
+            "model": "Qwen2.5-Coder-1.5B-Instruct",
+            "ACC_All": 54.47,
+            "ACC_gen": 53.87,
+            "ACC_qa": 56.18,
+            "MSE_All": 16.56,
+            "MSE_gen": 17.13,
+            "MSE_qa": 14.93
+        },
+        {
+            "AVG": 55.21,
+            "model": "Qwen2.5-Coder-3B-Instruct",
+            "ACC_All": 55.21,
+            "ACC_gen": 55.22,
+            "ACC_qa": 55.18,
+            "MSE_All": 12.43,
+            "MSE_gen": 13.01,
+            "MSE_qa": 10.76
+        },
+        {
+            "AVG": 54.47,
+            "model": "CodeLlama-7B-Instruct",
+            "ACC_All": 54.47,
+            "ACC_gen": 53.94,
+            "ACC_qa": 56.00,
+            "MSE_All": 19.12,
+            "MSE_gen": 20.89,
+            "MSE_qa": 13.96
+        },
+        {
+            "AVG": 54.63,
+            "model": "Qwen2.5-Chat-7B-Instruct",
+            "ACC_All": 54.63,
+            "ACC_gen": 51.81,
+            "ACC_qa": 62.82,
+            "MSE_All": 8.07,
+            "MSE_gen": 8.73,
+            "MSE_qa": 6.15
+        },
+        {
+            "AVG": 55.63,
+            "model": "CodeQwen1.5-7B-Chat",
+            "ACC_All": 55.63,
+            "ACC_gen": 55.41,
+            "ACC_qa": 56.27,
+            "MSE_All": 18.22,
+            "MSE_gen": 19.06,
+            "MSE_qa": 15.78
+        },
+        {
+            "AVG": 56.37,
+            "model": "OpenCoder-8B-Instruct",
+            "ACC_All": 56.37,
+            "ACC_gen": 57.66,
+            "ACC_qa": 52.64,
+            "MSE_All": 19.33,
+            "MSE_gen": 19.45,
+            "MSE_qa": 18.99
+        },
+        {
+            "AVG": 57.95,
+            "model": "Qwen2.5-Coder-7B-Instruct",
+            "ACC_All": 57.95,
+            "ACC_gen": 56.78,
+            "ACC_qa": 61.36,
+            "MSE_All": 5.64,
+            "MSE_gen": 6.17,
+            "MSE_qa": 4.10
+        },
+        {
+            "AVG": 61.67,
+            "model": "Yi-Coder-9B-Chat",
+            "ACC_All": 61.67,
+            "ACC_gen": 63.66,
+            "ACC_qa": 55.91,
+            "MSE_All": 14.21,
+            "MSE_gen": 14.28,
+            "MSE_qa": 14.02
+        },
+        {
+            "AVG": 52.17,
+            "model": "CodeLlama-13B-Instruct",
+            "ACC_All": 52.17,
+            "ACC_gen": 52.16,
+            "ACC_qa": 52.18,
+            "MSE_All": 13.94,
+            "MSE_gen": 15.55,
+            "MSE_qa": 9.26
+        },
+        {
+            "AVG": 53.43,
+            "model": "StarCoder2-15B-Instruct",
+            "ACC_All": 53.43,
+            "ACC_gen": 53.59,
+            "ACC_qa": 52.97,
+            "MSE_All": 21.42,
+            "MSE_gen": 20.92,
+            "MSE_qa": 22.88
+        },
+        {
+            "AVG": 59.00,
+            "model": "Qwen2.5-Coder-14B-Instruct",
+            "ACC_All": 59.00,
+            "ACC_gen": 56.38,
+            "ACC_qa": 66.64,
+            "MSE_All": 5.08,
+            "MSE_gen": 5.57,
+            "MSE_qa": 3.65
+        },
+        {
+            "AVG": 59.20,
+            "model": "DeepSeek-v2-Lite-Chat",
+            "ACC_All": 59.20,
+            "ACC_gen": 58.78,
+            "ACC_qa": 60.42,
+            "MSE_All": 5.57,
+            "MSE_gen": 6.35,
+            "MSE_qa": 3.29
+        },
+        {
+            "AVG": 59.81,
+            "model": "DeepSeekCoder-v2-Lite-Instruct",
+            "ACC_All": 59.81,
+            "ACC_gen": 59.34,
+            "ACC_qa": 61.18,
+            "MSE_All": 5.67,
+            "MSE_gen": 6.46,
+            "MSE_qa": 3.35
+        },
+        {
+            "AVG": 59.98,
+            "model": "Qwen2.5-Chat-14B-Instruct",
+            "ACC_All": 59.98,
+            "ACC_gen": 58.59,
+            "ACC_qa": 64.00,
+            "MSE_All": 4.38,
+            "MSE_gen": 5.02,
+            "MSE_qa": 2.51
+        },
+        {
+            "AVG": 54.79,
+            "model": "CodeLlama-34B-Instruct",
+            "ACC_All": 54.79,
+            "ACC_gen": 54.06,
+            "ACC_qa": 56.91,
+            "MSE_All": 13.45,
+            "MSE_gen": 15.06,
+            "MSE_qa": 8.76
+        },
+        {
+            "AVG": 61.67,
+            "model": "Qwen2.5-Coder-32B-Instruct",
+            "ACC_All": 61.67,
+            "ACC_gen": 59.00,
+            "ACC_qa": 69.45,
+            "MSE_All": 4.60,
+            "MSE_gen": 5.19,
+            "MSE_qa": 2.89
+        },
+        {
+            "AVG": 63.98,
+            "model": "Qwen2.5-Chat-32B-Instruct",
+            "ACC_All": 63.98,
+            "ACC_gen": 62.38,
+            "ACC_qa": 68.64,
+            "MSE_All": 4.32,
+            "MSE_gen": 5.09,
+            "MSE_qa": 2.09
+        },
+        {
+            "AVG": 60.35,
+            "model": "DeepSeek-v2.5",
+            "ACC_All": 60.35,
+            "ACC_gen": 58.46,
+            "ACC_qa": 65.85,
+            "MSE_All": 3.97,
+            "MSE_gen": 4.78,
+            "MSE_qa": 1.63
+        },
+        {
+            "AVG": 64.42,
+            "model": "DeepSeekCoder-v2-Instruct",
+            "ACC_All": 64.42,
+            "ACC_gen": 62.42,
+            "ACC_qa": 70.23,
+            "MSE_All": 4.19,
+            "MSE_gen": 5.14,
+            "MSE_qa": 1.46
+        },
+        {
+            "AVG": 65.91,
+            "model": "Llama3.3-70B-Instruct",
+            "ACC_All": 65.91,
+            "ACC_gen": 65.16,
+            "ACC_qa": 68.09,
+            "MSE_All": 4.78,
+            "MSE_gen": 5.65,
+            "MSE_qa": 2.24
+        },
+        {
+            "AVG": 68.35,
+            "model": "Qwen2.5-72B-Instruct",
+            "ACC_All": 68.35,
+            "ACC_gen": 68.44,
+            "ACC_qa": 68.09,
+            "MSE_All": 3.99,
+            "MSE_gen": 4.61,
+            "MSE_qa": 2.20
+        },
+        {
+            "AVG": 60.56,
+            "model": "GPT-4o-mini",
+            "ACC_All": 60.56,
+            "ACC_gen": 58.31,
+            "ACC_qa": 67.09,
+            "MSE_All": 3.92,
+            "MSE_gen": 4.82,
+            "MSE_qa": 1.30
+        },
+        {
+            "AVG": 61.42,
+            "model": "Doubao-Coder-Preview",
+            "ACC_All": 61.42,
+            "ACC_gen": 60.06,
+            "ACC_qa": 65.36,
+            "MSE_All": 6.51,
+            "MSE_gen": 7.07,
+            "MSE_qa": 4.90
+        },
+        {
+            "AVG": 61.55,
+            "model": "GLM-4-Plus",
+            "ACC_All": 61.55,
+            "ACC_gen": 60.94,
+            "ACC_qa": 63.35,
+            "MSE_All": 3.60,
+            "MSE_gen": 4.25,
+            "MSE_qa": 1.69
+        },
+        {
+            "AVG": 62.00,
+            "model": "DeepSeek-v3",
+            "ACC_All": 62.00,
+            "ACC_gen": 61.44,
+            "ACC_qa": 63.64,
+            "MSE_All": 3.64,
+            "MSE_gen": 4.49,
+            "MSE_qa": 1.18
+        },
+        {
+            "AVG": 63.36,
+            "model": "Qwen2.5-Max",
+            "ACC_All": 63.36,
+            "ACC_gen": 62.74,
+            "ACC_qa": 65.17,
+            "MSE_All": 4.09,
+            "MSE_gen": 5.04,
+            "MSE_qa": 1.33
+        },
+        {
+            "AVG": 68.06,
+            "model": "GPT-4o",
+            "ACC_All": 68.06,
+            "ACC_gen": 67.56,
+            "ACC_qa": 69.53,
+            "MSE_All": 4.15,
+            "MSE_gen": 5.04,
+            "MSE_qa": 1.55
+        },
+        {
+            "AVG": 68.79,
+            "model": "Claude-3.5-Sonnet",
+            "ACC_All": 68.79,
+            "ACC_gen": 66.06,
+            "ACC_qa": 76.73,
+            "MSE_All": 3.78,
+            "MSE_gen": 4.73,
+            "MSE_qa": 1.02
+        },
+        {
+            "AVG": 57.35,
+            "model": "QwQ-32B-Preview",
+            "ACC_All": 57.35,
+            "ACC_gen": 56.59,
+            "ACC_qa": 58.82,
+            "MSE_All": 7.20,
+            "MSE_gen": 8.07,
+            "MSE_qa": 4.67
+        },
+        {
+            "AVG": 64.53,
+            "model": "Gemini-2.0-Flash-Thinking",
+            "ACC_All": 64.53,
+            "ACC_gen": 64.88,
+            "ACC_qa": 63.55,
+            "MSE_All": 3.88,
+            "MSE_gen": 4.80,
+            "MSE_qa": 1.19
+        },
+        {
+            "AVG": 71.77,
+            "model": "OpenAI-o1-mini",
+            "ACC_All": 71.77,
+            "ACC_gen": 76.06,
+            "ACC_qa": 59.27,
+            "MSE_All": 4.92,
+            "MSE_gen": 6.08,
+            "MSE_qa": 1.54
+        },
+        {
+            "AVG": 72.49,
+            "model": "DeepSeek-R1-Distill-Qwen-32B",
+            "ACC_All": 72.49,
+            "ACC_gen": 75.38,
+            "ACC_qa": 64.09,
+            "MSE_All": 4.34,
+            "MSE_gen": 5.25,
+            "MSE_qa": 1.71
+        },
+        {
+            "AVG": 72.76,
+            "model": "DeepSeek-R1",
+            "ACC_All": 72.76,
+            "ACC_gen": 79.09,
+            "ACC_qa": 54.36,
+            "MSE_All": 4.20,
+            "MSE_gen": 3.92,
+            "MSE_qa": 5.02
+        },
+        {
+            "AVG": 75.30,
+            "model": "OpenAI-o1-Preview",
+            "ACC_All": 75.30,
+            "ACC_gen": 80.53,
+            "ACC_qa": 59.89,
+            "MSE_All": 4.81,
+            "MSE_gen": 5.68,
+            "MSE_qa": 2.26
+        },
+        {
+            "AVG": 74.21,
+            "model": "DeepSeek-R1-0528",
+            "ACC_All": 74.21,
+            "ACC_gen": 80.62,
+            "ACC_qa": 55.55,
+            "MSE_All": 4.47,
+            "MSE_gen": 4.27,
+            "MSE_qa": 5.05
+        }
+    ],
+    "models": [
+        {
+            "model_name": "Qwen2.5-Coder-0.5B-Instruct"
+        },
+        {
+            "model_name": "Yi-Coder-1.5B-Chat"
+        },
+        {
+            "model_name": "DeepSeek-Coder-1.3B-Instruct"
+        },
+        {
+            "model_name": "OpenCoder-1.5B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Coder-1.5B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Coder-3B-Instruct"
+        },
+        {
+            "model_name": "CodeLlama-7B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Chat-7B-Instruct"
+        },
+        {
+            "model_name": "CodeQwen1.5-7B-Chat"
+        },
+        {
+            "model_name": "OpenCoder-8B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Coder-7B-Instruct"
+        },
+        {
+            "model_name": "Yi-Coder-9B-Chat"
+        },
+        {
+            "model_name": "CodeLlama-13B-Instruct"
+        },
+        {
+            "model_name": "StarCoder2-15B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Coder-14B-Instruct"
+        },
+        {
+            "model_name": "DeepSeek-v2-Lite-Chat"
+        },
+        {
+            "model_name": "DeepSeekCoder-v2-Lite-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Chat-14B-Instruct"
+        },
+        {
+            "model_name": "CodeLlama-34B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Coder-32B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-Chat-32B-Instruct"
+        },
+        {
+            "model_name": "DeepSeek-v2.5"
+        },
+        {
+            "model_name": "DeepSeekCoder-v2-Instruct"
+        },
+        {
+            "model_name": "Llama3.3-70B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-72B-Instruct"
+        },
+        {
+            "model_name": "GPT-4o-mini"
+        },
+        {
+            "model_name": "Doubao-Coder-Preview"
+        },
+        {
+            "model_name": "GLM-4-Plus"
+        },
+        {
+            "model_name": "DeepSeek-v3"
+        },
+        {
+            "model_name": "Qwen2.5-Max"
+        },
+        {
+            "model_name": "GPT-4o"
+        },
+        {
+            "model_name": "Claude-3.5-Sonnet"
+        },
+        {
+            "model_name": "QwQ-32B-Preview"
+        },
+        {
+            "model_name": "Gemini-2.0-Flash-Thinking"
+        },
+        {
+            "model_name": "OpenAI-o1-mini"
+        },
+        {
+            "model_name": "DeepSeek-R1-Distill-Qwen-32B"
+        },
+        {
+            "model_name": "DeepSeek-R1"
+        },
+        {
+            "model_name": "OpenAI-o1-Preview"
+        },
+        {
+            "model_name": "DeepSeek-R1-0528"
+        }
+    ],
+    "date_marks": [
+        1682892000000,
+        1685570400000,
+        1688162400000,
+        1690840800000,
+        1693519200000,
+        1696111200000,
+        1698793200000,
+        1701385200000,
+        1704063600000,
+        1706742000000,
+        1709247600000,
+        1711922400000
+    ]
+}

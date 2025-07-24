@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models" />
+  <meta name="keywords" content="Code Critique, Large Language Models, Evaluation, Benchmark, Code Generation, Code QA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models
+  </title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+
+      gtag("js", new Date())
+
+      gtag("config", "G-PYVRSFMDRL")
+    </script> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/bulma.min.css" />
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css" />
+  <link rel="stylesheet" href="./css/bulma-slider.min.css" />
+  <link rel="stylesheet" href="./css/fontawesome.all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="icon" href="./images/favicon.svg" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./js/fontawesome.all.min.js"></script>
+  <script src="./js/bulma-carousel.min.js"></script>
+  <script src="./js/bulma-slider.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              CodeCriticBench: A Holistic Code Critique Benchmark for Large Language Models
+            </h1>
+      
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="#">Chenchen Zhang<sup>2,*</sup></a>,
+                <a href="#">Jinxiang Xia<sup>2,4,*</sup></a>,
+                <a href="#">Jiaheng Liu<sup>1,2,*,†</sup></a>,
+                <a href="#">Wei Zhang<sup>4</sup></a>,
+                <a href="#">Yejie Wang<sup>6</sup></a>,
+                <a href="#">Jian Yang<sup>4</sup></a>,<br>
+                <a href="#">Ge Zhang<sup>2</sup></a>,
+                <a href="#">Tianyu Liu<sup>2</sup></a>,
+                <a href="#">Zhongyuan Peng<sup>5</sup></a>,
+                <a href="#">Yingshui Tan<sup>3</sup></a>,
+                <a href="#">Yuanxing Zhang<sup>7</sup></a>,
+                <a href="#">Zhexu Wang<sup>6</sup></a>,<br>
+                <a href="#">Weixun Wang<sup>3</sup></a>,
+                <a href="#">Yancheng He<sup>3</sup></a>,
+                <a href="#">Ken Deng<sup>3</sup></a>,
+                <a href="#">Wangchunshu Zhou<sup>2,8</sup></a>,<br>
+                <a href="#">Wenhao Huang<sup>2</sup></a>,
+                <a href="#">Zhaoxiang Zhang<sup>5</sup></a>
+              </span>
+            </div>
+
+            <div class="is-size-6 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>NJU, <sup>2</sup>M-A-P, <sup>3</sup>Alibaba, <sup>4</sup>BUAA, <sup>5</sup>CASIA, <sup>6</sup>BUPT, <sup>7</sup>Kuaishou, <sup>8</sup>OPPO<br>
+                <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author
+              </span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2502.16614" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/multimodal-art-projection/CodeCriticBench"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/m-a-p/CodeCriticBench"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-images"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+                
+                <!-- Leaderboard Link. -->
+                <span class="link-block">
+                  <a href="leaderboard.html" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fa fa-trophy"></i>
+                    </span>
+                    <span>Leaderboard</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <div class="columns is-centered">
+          <!-- center the image -->
+          <img src="./images/first_image.png" alt="Teaser" class="teaser-image center" width="60%" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Introduction</h2>
+          <div class="content has-text-justified">
+            <p>
+              CodeCriticBench is the first holistic code critique benchmark for Large Language Models (LLMs), designed to evaluate their capacity to provide meaningful code feedback and suggestions. The benchmark encompasses both <strong>Code Generation</strong> and <strong>Code QA</strong> tasks across multiple difficulty levels, featuring comprehensive evaluation through Basic Critique Evaluation (BCE) and Advanced Critique Evaluation (ACE) protocols.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Dataset Statistics</h2>
+          <div class="content has-text-justified">
+            <p>
+              CodeCriticBench comprises <strong>4,300</strong> high-quality samples organized into two main categories: <strong>Code Generation</strong> (3,200 samples) and <strong>Code QA</strong> (1,100 samples). The dataset is further stratified by difficulty levels: <strong>Easy</strong> (1,517 samples), <strong>Medium</strong> (1,084 samples), and <strong>Hard</strong> (1,699 samples), ensuring comprehensive coverage across different complexity levels.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Data Collection and Construction Pipeline</h2>
+          <div class="content has-text-justified">
+            <div class="columns is-centered">
+              <img src="./images/CodeCriticBench_datacollect.png" alt="Data Collection Pipeline" class="teaser-image center" width="80%"
+                height="80%" />
+            </div>
+            <p>
+              Our data collection process involves multiple stages: for <strong>Code Generation</strong>, we gathered samples from CodeForces, MBPP, and LiveCodeBench, supplemented with expert-validated problems. For <strong>Code QA</strong>, we collected authentic requirements from StackOverflow and generated high-quality responses. Each sample includes fine-grained evaluation checklists across multiple dimensions, ensuring comprehensive assessment capabilities.
+            </p>
+          </div>
+        </div>
+      </div>  
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Dual Evaluation Framework</h2>
+          <div class="content has-text-justified">
+            <p>
+              CodeCriticBench features a comprehensive dual evaluation system: <strong>Basic Critique Evaluation (BCE)</strong> measures binary correctness assessment capabilities, while <strong>Advanced Critique Evaluation (ACE)</strong> employs fine-grained checklists across 10 dimensions including correctness verification, code readability, robustness validation, and algorithm optimization. This multi-dimensional approach enables nuanced assessment of LLM critique capabilities.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Comprehensive Model Evaluation</h2>
+          <div class="content has-text-justified">
+            <div class="columns is-centered">
+              <img src="./images/main_results_overview.png" alt="Model Evaluation Results" class="teaser-image center" width="80%"
+                height="80%" />
+            </div>
+            <p>
+              We conducted extensive evaluation of <strong>38 state-of-the-art LLMs</strong>, including both open-source models (Qwen2.5 series, Gemma3 series, Seed-Coder, DeepSeek series) and proprietary systems (GPT-4o, Claude 3.5 Sonnet, Gemini-2.5-Pro). Our results reveal significant performance variations across models, with o1-like models achieving notable improvements, though even the best performers struggle with the most challenging tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Performance Across Difficulty Levels</h2>
+          <div class="content has-text-justified">
+            <div class="columns is-centered">
+              <img src="./images/Score_of_diff_difficulty.png" alt="Difficulty Analysis" class="teaser-image center" width="80%"
+                height="80%" />
+            </div>
+            <p>
+              Analysis across difficulty levels reveals that even top-performing models struggle to exceed 50% accuracy on the most challenging subset, indicating substantial room for improvement. The consistent ranking preservation across difficulty tiers demonstrates our benchmark's robust discriminative power, effectively distinguishing model capabilities at every complexity level.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Scaling Law and Error Analysis</h2>
+          <div class="content has-text-justified">
+            <p>
+              Our analysis confirms strong scaling effects, with larger models consistently outperforming smaller counterparts across all evaluation metrics. Additionally, we conducted detailed error type identification experiments, revealing that models struggle particularly with performance issues and security vulnerabilities, while showing better performance on syntax errors and logical inconsistencies.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{zhang2025codecriticbench,
+        title={Codecriticbench: A holistic code critique benchmark for large language models},
+        author={Zhang, Chenchen and Xia, Jinxiang and Liu, Jiaheng and Zhang, Wei and Wang, Yejie and Yang, Jian and Zhang, Ge and Liu, Tianyu and Peng, Zhongyuan and Tan, Yingshui and others},
+        journal={arXiv preprint arXiv:2502.16614},
+        year={2025}
+      }</code></pre>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Please reach out to <a href="mailto:liujiaheng@nju.edu.cn">liujiaheng@nju.edu.cn</a> for questions or
+              feedback on CodeCriticBench. We are also open to collaborations and suggestions for new evaluation scenarios to add to
+              the benchmark. CodeCriticBench provides a comprehensive axis for LLM code critique evaluation and we recommend the
+              following benchmarks for measuring code LM abilities on various coding tasks, such as
+              <a href="https://livecodebench.github.io/leaderboard.html">LiveCodeBench Leaderboard</a>,
+              <a href="https://evalplus.github.io/leaderboard.html">EvalPlus Leaderboard</a>,
+              <a href="https://crux-eval.github.io/leaderboard.html">CruxEval Leaderboard</a>,
+              <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard">Chatbot Arena Leaderboard</a>,
+              <a href="https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard">BigCode Models Leaderboard</a>,
+              <a href="https://infi-coder.github.io/inficoder-eval/">InfiCoder-Eval</a>, and
+              <a href="https://leaderboard.tabbyml.com/">TabbyML Leaderboard</a>.
+            </p>
+            <p>
+              The source code from this website is adapted from <a
+                href="https://github.com/LiveCodeBench/livecodebench.github.io">LiveCodeBench</a> and <a
+                href="https://github.com/ArtifactsBench/ArtifactsBench.github.io">ArtifactsBench</a>!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
