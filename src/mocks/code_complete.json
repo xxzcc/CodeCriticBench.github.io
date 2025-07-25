@@ -389,6 +389,26 @@
             "MSE_All": 4.47,
             "MSE_gen": 4.27,
             "MSE_qa": 5.05
+        },
+        {
+            "AVG": 63.91,
+            "model": "Qwen3-Coder-480b-a35b-Instruct",
+            "ACC_All": 63.91,
+            "ACC_gen": 64.91,
+            "ACC_qa": 61.00,
+            "MSE_All": 5.13,
+            "MSE_gen": 5.83,
+            "MSE_qa": 3.10
+        },
+        {
+            "AVG": 71.58,
+            "model": "QwQ-32B",
+            "ACC_All": 71.58,
+            "ACC_gen": 76.94,
+            "ACC_qa": 56.00,
+            "MSE_All": 5.81,
+            "MSE_gen": 5.88,
+            "MSE_qa": 5.58
         }
     ],
     "models": [
@@ -508,6 +528,12 @@
         },
         {
             "model_name": "DeepSeek-R1-0528"
+        },
+        {
+            "model_name": "Qwen3-Coder-480b-a35b-Instruct"
+        },
+        {
+            "model_name": "QwQ-32B"
         }
     ],
     "date_marks": [

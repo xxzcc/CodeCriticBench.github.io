@@ -1,0 +1,782 @@
+{
+    "performances": [
+    {
+        "AVG": 57.74,
+        "model": "Gemini-2.5-Pro",
+        "IFLEN": null,
+        "SV": 60.14,
+        "MMD": 59.18,
+        "HD": 58.71,
+        "II": 55.62,
+        "GAME": 58.38,
+        "SVG": 65.33,
+        "WEB": 58.12,
+        "SI": 55.54,
+        "MS": 53.18
+    },
+    {
+        "AVG": 57.28,
+        "model": "Claude Sonnet 4 (20250514)",
+        "IFLEN": null,
+        "SV": 56.82,
+        "MMD": 60.06,
+        "HD": 60.08,
+        "II": 55.16,
+        "GAME": 57.98,
+        "SVG": 53.85,
+        "WEB": 58.36,
+        "SI": 58.35,
+        "MS": 55.38
+    },
+    {
+        "AVG": 54.04,
+        "model": "o3-2025-04-16",
+        "IFLEN": null,
+        "SV": 54.90,
+        "MMD": 56.88,
+        "HD": 55.92,
+        "II": 51.85,
+        "GAME": 54.33,
+        "SVG": 56.37,
+        "WEB": 52.95,
+        "SI": 55.75,
+        "MS": 50.21
+    },
+    {
+        "AVG": 51.32,
+        "model": "Claude 3.7 Sonnet (20250219)",
+        "IFLEN": 15480.06,
+        "SV": 49.76,
+        "MMD": 51.64,
+        "HD": 53.17,
+        "II": 50.79,
+        "GAME": 51.11,
+        "SVG": 45.37,
+        "WEB": 53.52,
+        "SI": 50.81,
+        "MS": 51.74
+    },
+    {
+        "AVG": 50.62,
+        "model": "Qwen3-235B-A22B-Instruct-2507",
+        "IFLEN": 20765.47,
+        "SV": 48.35,
+        "MMD": 50.37,
+        "HD": 53.03,
+        "II": 50.16,
+        "GAME": 50.67,
+        "SVG": 40.41,
+        "WEB": 52.19,
+        "SI": 50.24,
+        "MS": 50.83
+    },
+    {
+        "AVG": 47.73,
+        "model": "DeepSeek-R1-0528",
+        "IFLEN": 19215.71,
+        "SV": 48.11,
+        "MMD": 53.32,
+        "HD": 49.54,
+        "II": 45.45,
+        "GAME": 50.46,
+        "SVG": 45.06,
+        "WEB": 47.86,
+        "SI": 54.08,
+        "MS": 42.69
+    },
+    {
+        "AVG": 47.65,
+        "model": "Kimi K2 Instruct",
+        "IFLEN": 7116.99,
+        "SV": 50.11,
+        "MMD": 51.28,
+        "HD": 49.88,
+        "II": 44.31,
+        "GAME": 47.08,
+        "SVG": 50.61,
+        "WEB": 46.81,
+        "SI": 48.88,
+        "MS": 46.15
+    },
+    {
+        "AVG": 47.15,
+        "model": "Qwen3-Coder-480B-A35B-Instruct",
+        "IFLEN": 17581.53,
+        "SV": 46.32,
+        "MMD": 50.77,
+        "HD": 48.68,
+        "II": 45.99,
+        "GAME": 49.27,
+        "SVG": 40.18,
+        "WEB": 48.11,
+        "SI": 49.66,
+        "MS": 46.06
+    },
+    {
+        "AVG": 45.95,
+        "model": "GPT-4.1-2025-04-14",
+        "IFLEN": 7290.94,
+        "SV": 43.81,
+        "MMD": 47.35,
+        "HD": 47.28,
+        "II": 45.92,
+        "GAME": 49.30,
+        "SVG": 42.47,
+        "WEB": 46.11,
+        "SI": 45.39,
+        "MS": 41.05
+    },
+    {
+        "AVG": 43.50,
+        "model": "DeepSeek-V3-0324",
+        "IFLEN": 11443.06,
+        "SV": 44.04,
+        "MMD": 43.47,
+        "HD": 46.82,
+        "II": 40.95,
+        "GAME": 45.29,
+        "SVG": 40.20,
+        "WEB": 45.56,
+        "SI": 37.22,
+        "MS": 42.17
+    },
+    {
+        "AVG": 41.09,
+        "model": "Qwen3-235B-A22B",
+        "IFLEN": 19314.92,
+        "SV": 42.75,
+        "MMD": 42.03,
+        "HD": 43.01,
+        "II": 38.76,
+        "GAME": 40.68,
+        "SVG": 40.15,
+        "WEB": 42.62,
+        "SI": 38.92,
+        "MS": 39.39
+    },
+    {
+        "AVG": 40.95,
+        "model": "hunyuan-A13B",
+        "IFLEN": 17924.89,
+        "SV": 41.09,
+        "MMD": 41.73,
+        "HD": 42.14,
+        "II": 39.94,
+        "GAME": 40.84,
+        "SVG": 39.87,
+        "WEB": 42.34,
+        "SI": 37.35,
+        "MS": 40.27
+    },
+    {
+        "AVG": 39.85,
+        "model": "Claude 3.5 Sonnet (20241022)",
+        "IFLEN": 6391.96,
+        "SV": 41.44,
+        "MMD": 42.08,
+        "HD": 42.40,
+        "II": 36.95,
+        "GAME": 38.46,
+        "SVG": 41.94,
+        "WEB": 41.26,
+        "SI": 39.43,
+        "MS": 38.17
+    },
+    {
+        "AVG": 35.21,
+        "model": "KAT-V1",
+        "IFLEN": 23262.57,
+        "SV": 34.34,
+        "MMD": 37.67,
+        "HD": 38.01,
+        "II": 33.32,
+        "GAME": 33.42,
+        "SVG": 28.20,
+        "WEB": 35.84,
+        "SI": 37.17,
+        "MS": 35.78
+    },
+    {
+        "AVG": 27.35,
+        "model": "Qwen2.5-7B-Instruct",
+        "IFLEN": 7905.21,
+        "SV": 29.60,
+        "MMD": 26.92,
+        "HD": 29.68,
+        "II": 24.65,
+        "GAME": 24.26,
+        "SVG": 23.22,
+        "WEB": 29.99,
+        "SI": 23.86,
+        "MS": 28.31
+    },
+    {
+        "AVG": 30.49,
+        "model": "Qwen2.5-14B-Instruct",
+        "IFLEN": 6334.34,
+        "SV": 32.07,
+        "MMD": 31.93,
+        "HD": 32.83,
+        "II": 27.85,
+        "GAME": 27.73,
+        "SVG": 27.89,
+        "WEB": 32.77,
+        "SI": 28.11,
+        "MS": 30.57
+    },
+    {
+        "AVG": 32.07,
+        "model": "Qwen2.5-32B-Instruct",
+        "IFLEN": 5115.49,
+        "SV": 34.45,
+        "MMD": 31.37,
+        "HD": 34.37,
+        "II": 29.37,
+        "GAME": 30.52,
+        "SVG": 32.36,
+        "WEB": 33.60,
+        "SI": 28.23,
+        "MS": 30.35
+    },
+    {
+        "AVG": 34.51,
+        "model": "Qwen2.5-72B-Instruct",
+        "IFLEN": 6029.47,
+        "SV": 35.81,
+        "MMD": 35.01,
+        "HD": 36.84,
+        "II": 32.16,
+        "GAME": 33.71,
+        "SVG": 34.49,
+        "WEB": 36.21,
+        "SI": 29.96,
+        "MS": 33.12
+    },
+    {
+        "AVG": 31.69,
+        "model": "Qwen2.5-VL-72B",
+        "IFLEN": 3539.15,
+        "SV": 34.37,
+        "MMD": 33.71,
+        "HD": 34.70,
+        "II": 27.93,
+        "GAME": 29.70,
+        "SVG": 33.84,
+        "WEB": 33.12,
+        "SI": 31.25,
+        "MS": 30.10
+    },
+    {
+        "AVG": 26.01,
+        "model": "Qwen-2.5-Coder7B-Instruct",
+        "IFLEN": 5800.23,
+        "SV": 25.58,
+        "MMD": 25.80,
+        "HD": 28.80,
+        "II": 24.34,
+        "GAME": 25.21,
+        "SVG": 20.58,
+        "WEB": 28.56,
+        "SI": 24.49,
+        "MS": 26.27
+    },
+    {
+        "AVG": 35.32,
+        "model": "Qwen-2.5-Coder32B-Instruct",
+        "IFLEN": 6318.59,
+        "SV": 37.12,
+        "MMD": 36.42,
+        "HD": 37.69,
+        "II": 32.61,
+        "GAME": 32.93,
+        "SVG": 33.59,
+        "WEB": 37.16,
+        "SI": 34.69,
+        "MS": 33.97
+    },
+    {
+        "AVG": 40.79,
+        "model": "QwQ-32B",
+        "IFLEN": 20232.53,
+        "SV": 44.01,
+        "MMD": 41.64,
+        "HD": 41.92,
+        "II": 38.22,
+        "GAME": 38.96,
+        "SVG": 43.08,
+        "WEB": 41.74,
+        "SI": 40.17,
+        "MS": 39.37
+    },
+    {
+        "AVG": 32.84,
+        "model": "Qwen3-4B",
+        "IFLEN": 35479.79,
+        "SV": 35.55,
+        "MMD": 35.57,
+        "HD": 35.40,
+        "II": 29.28,
+        "GAME": 30.88,
+        "SVG": 32.83,
+        "WEB": 35.05,
+        "SI": 33.07,
+        "MS": 31.47
+    },
+    {
+        "AVG": 36.52,
+        "model": "Qwen3-8B",
+        "IFLEN": 22319.97,
+        "SV": 38.88,
+        "MMD": 37.84,
+        "HD": 38.51,
+        "II": 33.74,
+        "GAME": 34.58,
+        "SVG": 36.37,
+        "WEB": 38.08,
+        "SI": 36.15,
+        "MS": 35.92
+    },
+    {
+        "AVG": 39.79,
+        "model": "Qwen3-14B",
+        "IFLEN": 15118.26,
+        "SV": 41.34,
+        "MMD": 41.63,
+        "HD": 41.68,
+        "II": 37.42,
+        "GAME": 38.65,
+        "SVG": 39.50,
+        "WEB": 41.22,
+        "SI": 38.68,
+        "MS": 38.67
+    },
+    {
+        "AVG": 42.16,
+        "model": "Qwen3-32B (Instruct)",
+        "IFLEN": 17394.15,
+        "SV": 44.39,
+        "MMD": 43.79,
+        "HD": 44.65,
+        "II": 39.05,
+        "GAME": 41.85,
+        "SVG": 43.44,
+        "WEB": 43.34,
+        "SI": 40.79,
+        "MS": 39.84
+    },
+    {
+        "AVG": 40.08,
+        "model": "Qwen3-30B-A3B (Instruct)",
+        "IFLEN": 15772.52,
+        "SV": 42.49,
+        "MMD": 40.95,
+        "HD": 42.34,
+        "II": 37.16,
+        "GAME": 39.98,
+        "SVG": 42.27,
+        "WEB": 41.54,
+        "SI": 38.43,
+        "MS": 37.15
+    },
+    {
+        "AVG": 42.95,
+        "model": "Hunyuan-A13B",
+        "IFLEN": 17831.15,
+        "SV": 44.80,
+        "MMD": 44.64,
+        "HD": 44.22,
+        "II": 40.88,
+        "GAME": 42.30,
+        "SVG": 47.31,
+        "WEB": 44.56,
+        "SI": 39.17,
+        "MS": 41.23
+    },
+    {
+        "AVG": 44.62,
+        "model": "Qwen3-253B-A22B (Instruct)",
+        "IFLEN": 19400.61,
+        "SV": 47.42,
+        "MMD": 46.09,
+        "HD": 46.16,
+        "II": 41.89,
+        "GAME": 44.03,
+        "SVG": 47.04,
+        "WEB": 45.85,
+        "SI": 43.97,
+        "MS": 42.41
+    },
+    {
+        "AVG": 35.04,
+        "model": "DeepSeek-distill-qwen-32B",
+        "IFLEN": 9249.36,
+        "SV": 36.48,
+        "MMD": 37.50,
+        "HD": 37.47,
+        "II": 32.24,
+        "GAME": 34.51,
+        "SVG": 35.52,
+        "WEB": 36.92,
+        "SI": 35.35,
+        "MS": 33.17
+    },
+    {
+        "AVG": 35.23,
+        "model": "Seed-Coder-8B-Instruct",
+        "IFLEN": 8934.07,
+        "SV": 36.76,
+        "MMD": 37.10,
+        "HD": 37.69,
+        "II": 32.47,
+        "GAME": 34.76,
+        "SVG": 36.29,
+        "WEB": 36.62,
+        "SI": 33.21,
+        "MS": 32.73
+    },
+    {
+        "AVG": 35.53,
+        "model": "Gemma3-12B-it",
+        "IFLEN": 7955.42,
+        "SV": 38.90,
+        "MMD": 34.56,
+        "HD": 37.53,
+        "II": 32.58,
+        "GAME": 33.06,
+        "SVG": 35.72,
+        "WEB": 37.72,
+        "SI": 31.97,
+        "MS": 35.36
+    },
+    {
+        "AVG": 37.16,
+        "model": "Gemma3-27B-it",
+        "IFLEN": 7912.14,
+        "SV": 39.97,
+        "MMD": 37.63,
+        "HD": 38.80,
+        "II": 34.54,
+        "GAME": 35.62,
+        "SVG": 37.18,
+        "WEB": 38.65,
+        "SI": 34.49,
+        "MS": 36.01
+    },
+    {
+        "AVG": 35.67,
+        "model": "DeepSeek-V3",
+        "IFLEN": 4518.74,
+        "SV": 38.23,
+        "MMD": 37.99,
+        "HD": 37.87,
+        "II": 32.48,
+        "GAME": 34.31,
+        "SVG": 37.09,
+        "WEB": 37.23,
+        "SI": 34.87,
+        "MS": 33.43
+    },
+    {
+        "AVG": 44.64,
+        "model": "DeepSeek-R1",
+        "IFLEN": 10754.69,
+        "SV": 47.17,
+        "MMD": 46.75,
+        "HD": 46.95,
+        "II": 41.44,
+        "GAME": 44.18,
+        "SVG": 47.01,
+        "WEB": 45.58,
+        "SI": 41.85,
+        "MS": 42.40
+    },
+    {
+        "AVG": 51.62,
+        "model": "DeepSeek-R1-0528",
+        "IFLEN": 20780.42,
+        "SV": 51.18,
+        "MMD": 53.65,
+        "HD": 51.92,
+        "II": 51.33,
+        "GAME": 51.78,
+        "SVG": 52.87,
+        "WEB": 50.66,
+        "SI": 50.27,
+        "MS": 45.51
+    },
+    {
+        "AVG": 47.92,
+        "model": "Seed-thinking-1.5",
+        "IFLEN": 14823.72,
+        "SV": 49.16,
+        "MMD": 48.36,
+        "HD": 49.84,
+        "II": 45.90,
+        "GAME": 47.59,
+        "SVG": 47.86,
+        "WEB": 49.61,
+        "SI": 49.81,
+        "MS": 45.81
+    },
+    {
+        "AVG": 37.97,
+        "model": "GPT-4O",
+        "IFLEN": 4883.8926,
+        "SV": 40.60,
+        "MMD": 37.74,
+        "HD": 40.32,
+        "II": 35.04,
+        "GAME": 36.96,
+        "SVG": 39.54,
+        "WEB": 39.27,
+        "SI": 35.73,
+        "MS": 35.83
+    },
+    {
+        "AVG": 38.65,
+        "model": "O1-2024-12-17",
+        "IFLEN": null,
+        "SV": 39.51,
+        "MMD": 38.35,
+        "HD": 39.90,
+        "II": 37.38,
+        "GAME": 38.96,
+        "SVG": 38.58,
+        "WEB": 39.01,
+        "SI": 38.12,
+        "MS": 36.20
+    },
+    {
+        "AVG": 44.98,
+        "model": "OpenAI-o3-mini",
+        "IFLEN": null,
+        "SV": 46.49,
+        "MMD": 45.11,
+        "HD": 46.04,
+        "II": 43.45,
+        "GAME": 45.43,
+        "SVG": 46.82,
+        "WEB": 45.18,
+        "SI": 43.91,
+        "MS": 41.73
+    },
+    {
+        "AVG": 50.97,
+        "model": "Hunyuan-Turbos-Preview",
+        "IFLEN": null,
+        "SV": 50.58,
+        "MMD": 53.27,
+        "HD": 53.08,
+        "II": 49.35,
+        "GAME": 51.61,
+        "SVG": 51.37,
+        "WEB": 52.31,
+        "SI": 50.74,
+        "MS": 49.92
+    },
+    {
+        "AVG": 52.19,
+        "model": "Claude 3.7-Sonnet",
+        "IFLEN": 15476.18,
+        "SV": 52.73,
+        "MMD": 53.54,
+        "HD": 53.48,
+        "II": 50.83,
+        "GAME": 52.24,
+        "SVG": 51.63,
+        "WEB": 53.64,
+        "SI": 52.14,
+        "MS": 50.27
+    },
+    {
+        "AVG": 55.76,
+        "model": "Claude 4.0-Sonnet",
+        "IFLEN": 20633.88,
+        "SV": 57.14,
+        "MMD": 59.18,
+        "HD": 57.93,
+        "II": 53.04,
+        "GAME": 57.22,
+        "SVG": 56.98,
+        "WEB": 55.79,
+        "SI": 56.67,
+        "MS": 53.20
+    },
+    {
+        "AVG": 56.79,
+        "model": "Gemini-2.5-Pro-0506",
+        "IFLEN": null,
+        "SV": 59.02,
+        "MMD": 57.69,
+        "HD": 57.99,
+        "II": 54.70,
+        "GAME": 56.65,
+        "SVG": 62.37,
+        "WEB": 57.28,
+        "SI": 55.26,
+        "MS": 53.04
+    },
+    {
+        "AVG": 57.01,
+        "model": "Gemini-2.5-Pro-0605",
+        "IFLEN": null,
+        "SV": 59.99,
+        "MMD": 56.35,
+        "HD": 58.13,
+        "II": 54.87,
+        "GAME": 55.21,
+        "SVG": 61.78,
+        "WEB": 58.30,
+        "SI": 55.03,
+        "MS": 55.03
+    }
+],
+    "models": [
+        {
+            "model_name": "Gemini-2.5-Pro"
+        },
+        {
+            "model_name": "Claude Sonnet 4 (20250514)"
+        },
+        {
+            "model_name": "o3-2025-04-16"
+        },
+        {
+            "model_name": "Claude 3.7 Sonnet (20250219)"
+        },
+        {
+            "model_name": "Qwen3-235B-A22B-Instruct-2507"
+        },
+        {
+            "model_name": "DeepSeek-R1-0528"
+        },
+        {
+            "model_name": "Kimi K2 Instruct"
+        },
+        {
+            "model_name": "Qwen3-Coder-480B-A35B-Instruct"
+        },
+        {
+            "model_name": "GPT-4.1-2025-04-14"
+        },
+        {
+            "model_name": "DeepSeek-V3-0324"
+        },
+        {
+            "model_name": "Qwen3-235B-A22B"
+        },
+        {
+            "model_name": "hunyuan-A13B"
+        },
+        {
+            "model_name": "Claude 3.5 Sonnet (20241022)"
+        },
+        {
+            "model_name": "KAT-V1"
+        },
+        {
+            "model_name": "Qwen2.5-7B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-14B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-32B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-72B-Instruct"
+        },
+        {
+            "model_name": "Qwen2.5-VL-72B"
+        },
+        {
+            "model_name": "Qwen-2.5-Coder7B-Instruct"
+        },
+        {
+            "model_name": "Qwen-2.5-Coder32B-Instruct"
+        },
+        {
+            "model_name": "QwQ-32B"
+        },
+        {
+            "model_name": "Qwen3-4B"
+        },
+        {
+            "model_name": "Qwen3-8B"
+        },
+        {
+            "model_name": "Qwen3-14B"
+        },
+        {
+            "model_name": "Qwen3-32B (Instruct)"
+        },
+        {
+            "model_name": "Qwen3-30B-A3B (Instruct)"
+        },
+        {
+            "model_name": "Hunyuan-A13B"
+        },
+        {
+            "model_name": "Qwen3-253B-A22B (Instruct)"
+        },
+        {
+            "model_name": "DeepSeek-distill-qwen-32B"
+        },
+        {
+            "model_name": "Seed-Coder-8B-Instruct"
+        },
+        {
+            "model_name": "Gemma3-12B-it"
+        },
+        {
+            "model_name": "Gemma3-27B-it"
+        },
+        {
+            "model_name": "DeepSeek-V3"
+        },
+        {
+            "model_name": "DeepSeek-R1"
+        },
+        {
+            "model_name": "Seed-thinking-1.5"
+        },
+        {
+            "model_name": "GPT-4O"
+        },
+        {
+            "model_name": "O1-2024-12-17"
+        },
+        {
+            "model_name": "OpenAI-o3-mini"
+        },
+        {
+            "model_name": "Hunyuan-Turbos-Preview"
+        },
+        {
+            "model_name": "Claude 3.7-Sonnet"
+        },
+        {
+            "model_name": "Claude 4.0-Sonnet"
+        },
+        {
+            "model_name": "Gemini-2.5-Pro-0506"
+        },
+        {
+            "model_name": "Gemini-2.5-Pro-0605"
+        }
+    ],
+    "date_marks": [
+        1682892000000,
+        1685570400000,
+        1688162400000,
+        1690840800000,
+        1693519200000,
+        1696111200000,
+        1698793200000,
+        1701385200000,
+        1704063600000,
+        1706742000000,
+        1709247600000,
+        1711922400000
+    ]
+}
