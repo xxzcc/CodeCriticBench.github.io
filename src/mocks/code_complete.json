@@ -409,6 +409,76 @@
             "MSE_All": 5.81,
             "MSE_gen": 5.88,
             "MSE_qa": 5.58
+        },
+        {
+            "AVG": 66.02,
+            "model": "Seed-Coder-8B-Instruct",
+            "ACC_All": 66.02,
+            "ACC_gen": 67.72,
+            "ACC_qa": 61.09,
+            "MSE_All": 6.19,
+            "MSE_gen": 7.45,
+            "MSE_qa": 2.53
+        },
+        {
+            "AVG": 67.95,
+            "model": "Qwen3-235B-A22B-Instruct-2507",
+            "ACC_All": 67.95,
+            "ACC_gen": 70.50,
+            "ACC_qa": 60.55,
+            "MSE_All": 3.55,
+            "MSE_gen": 4.09,
+            "MSE_qa": 1.96
+        },
+        {
+            "AVG": 66.56,
+            "model": "KAT-V1-40B",
+            "ACC_All": 66.56,
+            "ACC_gen": 70.28,
+            "ACC_qa": 55.73,
+            "MSE_All": 5.53,
+            "MSE_gen": 6.63,
+            "MSE_qa": 2.35
+        },
+        {
+            "AVG": 67.02,
+            "model": "Qwen3-8B",
+            "ACC_All": 67.02,
+            "ACC_gen": 69.72,
+            "ACC_qa": 59.18,
+            "MSE_All": 10.06,
+            "MSE_gen": 12.41,
+            "MSE_qa": 3.22
+        },
+        {
+            "AVG": 67.37,
+            "model": "Qwen3-30B-A3B",
+            "ACC_All": 67.37,
+            "ACC_gen": 71.25,
+            "ACC_qa": 56.09,
+            "MSE_All": 4.95,
+            "MSE_gen": 5.77,
+            "MSE_qa": 2.58
+        },
+        {
+            "AVG": 70.26,
+            "model": "Qwen3-14B",
+            "ACC_All": 70.26,
+            "ACC_gen": 73.66,
+            "ACC_qa": 60.36,
+            "MSE_All": 8.79,
+            "MSE_gen": 10.60,
+            "MSE_qa": 3.51
+        },
+        {
+            "AVG": 72.26,
+            "model": "Qwen3-32B",
+            "ACC_All": 72.26,
+            "ACC_gen": 76.69,
+            "ACC_qa": 59.36,
+            "MSE_All": 5.38,
+            "MSE_gen": 6.13,
+            "MSE_qa": 3.19
         }
     ],
     "models": [
@@ -534,6 +604,27 @@
         },
         {
             "model_name": "QwQ-32B"
+        },
+        {
+            "model_name": "Seed-Coder-8B-Instruct"
+        },
+        {
+            "model_name": "Qwen3-235B-A22B-Instruct-2507"
+        },
+        {
+            "model_name": "KAT-V1-40B"
+        },
+        {
+            "model_name": "Qwen3-8B"
+        },
+        {
+            "model_name": "Qwen3-30B-A3B"
+        },
+        {
+            "model_name": "Qwen3-14B"
+        },
+        {
+            "model_name": "Qwen3-32B"
         }
     ],
     "date_marks": [
